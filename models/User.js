@@ -31,20 +31,7 @@ const UserSchema = mongoose.Schema({
     default: false
   },
 
-  // cart: {
-  //   type: Object,
-  //   default: {
-  //     total: 0,
-  //     count: 0
-  //   }
-  // },
 
-  // notifications: {
-  //   type: Array,
-  //   default: []
-  // },
-
-//   orders: [{type: mongoose.Schema.Types.ObjectId, ref: 'Order'}]
 
 }, {minimize: false});
 
